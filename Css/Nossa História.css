@@ -215,3 +215,62 @@ p {
 .modal-container.open , .modal-container.open2 , .modal-container.open3{
     display: flex;
 }
+
+@media screen and (max-width: 999px) {
+    .título {
+        font-size: 60px;
+        width: 500px;
+        margin-left: 8rem;
+    }
+
+    .btn {
+        margin-left: -40%;
+    }
+    
+    .btn2 {
+        margin-left: 29%;
+    }
+    
+    .btn3 {
+        margin-left: 58%;
+    }
+        
+.titulo2 {
+    color: #93221F;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 70%;
+}
+
+.img , .img2 , .img3 {
+    display: block;
+    margin: 0.5rem auto;
+    margin-left: 64%;
+}
+
+.img2 {
+    margin-left: 65%;
+    height: auto;
+    width: 240px;
+}
+
+p {
+    color: black;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1rem;
+    word-wrap: break-word;
+    width: 45rem; 
+}
+
+.main {
+    margin-top: 10rem;
+}
+}

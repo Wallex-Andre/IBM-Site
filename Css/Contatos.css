@@ -229,4 +229,20 @@ li {
     margin-top: 1rem;
 }
 
+.img {
+    width: 578px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 12rem;
+    margin-left: 10rem;
+    position: absolute;
+}
+
+#Form {
+    margin-top: 4rem;
+}
+
+
+
 }

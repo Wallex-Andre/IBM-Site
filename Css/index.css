@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     overflow-x: hidden;
 }
+
+
 
 .mobile-titulo , .mobile-titulo-cursos , .mobile-titulo-parceiros , .mobile-titulo-contatos, .mobile-p , .mobile-p-cursos , #mobile-Cursos , .mobile-contato1 , .mobile-contato2 , .mobile-contato3 , .mobile-contato4{
     display: none ;
@@ -448,6 +454,14 @@ li {
   }
 
 @media screen and (max-width: 999px) {
+
+    #Fundo-novidades {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+      }
     
     .formando , .formando_p , .formando_imgs , .img1 , .img2 , .cursost , .parceirost, .paragrafo2 , #Cursos , .contatost{
         display: none;
@@ -579,7 +593,7 @@ li {
     }
       
     .swiper-pagination{
-        margin-bottom: 7rem;
+        margin-bottom: 2rem;
     }
       
     .swiper-pagination-bullet{
@@ -591,6 +605,7 @@ li {
         margin-left: 0rem;
         margin-top: -4rem;
         margin-bottom: 4rem;
+        margin-top: 1rem;
     }
     
     .section {
@@ -782,4 +797,3 @@ li {
   
   #prev { left: 10px; }
   #next { right: 10px; }
-  

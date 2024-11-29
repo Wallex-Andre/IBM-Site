@@ -217,60 +217,96 @@ p {
 }
 
 @media screen and (max-width: 999px) {
+
+    #titulo-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .título {
-        font-size: 60px;
+        font-size: 40px;
         width: 500px;
-        margin-left: 8rem;
     }
 
     .btn {
-        margin-left: -40%;
+        margin-left: -29%;
     }
     
     .btn2 {
-        margin-left: 29%;
+        margin-left: -31%;
+        margin-top: 8rem;
     }
     
     .btn3 {
-        margin-left: 58%;
+        margin-left: -35%;
+        margin-top: 14rem;
     }
         
-.titulo2 {
-    color: #93221F;
-    font-family: "Inter";
-    font-optical-sizing: auto;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 3rem;
-    margin-left: 70%;
-}
+    .titulo2 {
+        color: #93221F;
+        font-family: "Inter";
+        font-optical-sizing: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline #93221F;
+    }
 
-.img , .img2 , .img3 {
-    display: block;
-    margin: 0.5rem auto;
-    margin-left: 64%;
-}
+    .img {
+        display: none; 
+    }
 
-.img2 {
-    margin-left: 65%;
-    height: auto;
-    width: 240px;
-}
 
-p {
-    color: black;
-    font-family: "Inter";
-    font-optical-sizing: auto;
-    font-size: 20px;
-    display: block;
-    margin: auto;
-    text-align: justify;
-    margin-top: 1rem;
-    word-wrap: break-word;
-    width: 45rem; 
-}
+    p {
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        text-align: justify;
+        margin-top: 1rem;
+        word-wrap: break-word;
+        width: 22rem; 
+    }
 
-.main {
-    margin-top: 10rem;
-}
+    .main {
+        margin-top: 22rem;
+    }
+
+    .modal-container , .modal-container2 , .modal-container3{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background-color: #00000038;
+        z-index: 999;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-family: "Hammersmith One";
+    }
+    
+    .modal{
+        width: 60%;
+        min-width: 360px;
+        min-height: 200px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 20px #000000;
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 10px;
+        font-family: "Hammersmith One";
+    }
+
+    .modal p{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
 }

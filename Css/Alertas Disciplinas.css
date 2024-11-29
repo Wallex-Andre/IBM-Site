@@ -260,7 +260,12 @@ body {
         font-style: normal;
     }
     
-    .atv-div , .dcp-div {
+    .atv-div {
+        width: 400px;
+        height: 60px;
+    }
+
+    .dcp-div {
         width: 400px;
         height: 60px;
     }
